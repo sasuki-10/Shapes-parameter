@@ -1,16 +1,19 @@
 #include<stdio.h>
+
 void area(int a,int b)
 {
   int s;
   s=(a*b)/2;
   printf("Area of triangle:%d",s);
 }
+
 void perimeter(int a,int b)
-      {
+       {
 	int sides;
 	int p;
 	printf("\nEnter no. of sides which are equal....:");
 	scanf("%d",&sides);
+	       
 	if(sides==3)
 	 {
 		p=3*a;
@@ -24,6 +27,7 @@ void perimeter(int a,int b)
 		printf("\nperimeter is:%d",p);	
 	}
 }
+
 int main()
 {
 	int a,b;
