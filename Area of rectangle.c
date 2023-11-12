@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void area(int a,int b)
 {
   int s;
