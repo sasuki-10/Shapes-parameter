@@ -6,17 +6,17 @@ void area(int a,int b)
   printf("Area of triangle:%d",s);
 }
 void perimeter(int a,int b)
-{
+      {
 	int sides;
 	int p;
 	printf("\nEnter no. of sides which are equal....:");
 	scanf("%d",&sides);
 	if(sides==3)
-	{
+	 {
 		p=3*a;
 		printf("\nTRIANGLE IS EQUILATERAL...");
 		printf("\nperimeter is:%d",p);
-	}
+	 }
 	else if(sides==2)
 	{
 		p=2*a+b;
