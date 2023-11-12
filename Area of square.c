@@ -4,14 +4,12 @@ void area(int a)
   int s;
   s=a*a;
   printf("Area of square:%d",s);
-  
 }
 void perimeter(int a)
 { 
-       int p;  
+           int p;  
 	   p=4*a;
 	   printf("\nperimeter of square is:%d",p);	
-	
 }
 int main()
 {
@@ -20,4 +18,5 @@ int main()
 	scanf("%d",&a);
 	area(a);
 	perimeter(a);
+	
 }
