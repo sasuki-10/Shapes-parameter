@@ -5,6 +5,7 @@ void area(int a,int b)
   s=a*b;
   printf("\nArea of Rectangle:%d",s);
 }
+
 void perimeter(int a,int b)
 {
 	int p;
