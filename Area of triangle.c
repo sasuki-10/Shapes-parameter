@@ -4,7 +4,6 @@ void area(int a,int b)
   int s;
   s=(a*b)/2;
   printf("Area of triangle:%d",s);
-  
 }
 void perimeter(int a,int b)
 {
