@@ -20,7 +20,7 @@ void perimeter(int a,int b)
 	else if(sides==2)
 	{
 		p=2*a+b;
-	    printf("\nTRIANGLE IS ISOSCALES...");
+	        printf("\nTRIANGLE IS ISOSCALES...");
 		printf("\nperimeter is:%d",p);	
 	}
 }
